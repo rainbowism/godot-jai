@@ -1,0 +1,5 @@
+.build/
+libgdexample.dll
+libgdexample.lib
+libgdexample.exp
+libgdexample.pdb
