@@ -11,11 +11,3 @@ make_variant_nil :: () -> Variant {
 destroy :: (variant: Variant) {
     gdn_interface.variant_destroy(xx *variant);
 }
-
-String :: struct {
-    opaque: [8] u8;
-}
-
-StringName :: struct {
-    opaque: [8] u8;
-}

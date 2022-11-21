@@ -8,8 +8,11 @@
     #load "gdnative/unix.jai";
 }
 
-#load "godot.jai";
-#load "classdb.jai";
-#load "variant.jai";
-#load "wrapped.jai";
-#load "test.jai";
+#load "gdextension/godot.jai";
+#load "gdextension/classdb.jai";
+#load "gdextension/variant.jai";
+#load "gdextension/builtin_classes.gen.jai";
+#load "gdextension/wrapped.jai";
+#load "gdextension/test.jai";
+
+#import "Basic";

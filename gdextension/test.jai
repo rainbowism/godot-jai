@@ -7,5 +7,3 @@ gd_sin :: (angle_rad: float) -> float #c_call {
     }
     return angle_rad;
 }
-
-#import "Basic";
